@@ -1,5 +1,7 @@
 package removeNthNodeFromTheEndOfList19;
 
+import shared.ListNode;
+
 public class RemoveNthNodeFromTheEndOfList {
 
     public static void main(String[] args) {
