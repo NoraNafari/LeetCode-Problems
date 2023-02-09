@@ -5,7 +5,13 @@ import java.util.*;
 public class IntersectionOfTwoArrays {
 
     public static void main(String[] args) {
-
+        //test case
+        int[] nums1 = new int[]{1,2,2,1};
+        int[] nums2 = new int[]{2,2};
+        int[] intersect = intersect(nums1, nums2);
+        for (int i : intersect) {
+            System.out.println(i);
+        }
     }
 
     public static int[] intersect(int[] nums1, int[] nums2) {
